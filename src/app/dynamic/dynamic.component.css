@@ -1,0 +1,11 @@
+.image{
+    height:43em; background-size:cover; width:auto;
+    background-image:url('../../assets/img/flight.jpg');
+    background-position:50% 50%;
+  }
+  .homediv{
+      margin-left: 40px;
+      
+    height: 200px;
+    width: 50%;
+  }

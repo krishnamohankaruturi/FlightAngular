@@ -1,0 +1,30 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<div class="image">
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+   
+ <!-- 
+    <div class="fadeIn first">
+      <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi5no2v_oHlAhXS7XMBHWXEBvAQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.nicepng.com%2Fourpic%2Fu2q8i1t4t4t4q8a9_group-of-10-guys-login-user-icon-png%2F&psig=AOvVaw19i5DqW6HgfMy8XQwvNjm1&ust=1570257273131329" id="icon" alt="User Icon" />
+    </div> -->
+
+    <!-- Login Form -->
+  
+    <form>
+      <input type="text" id="email" class="fadeIn second" name="email" placeholder="email" [(ngModel)]="user.email">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password" [(ngModel)]="user.password">
+      <input type="submit" class="fadeIn fourth" value="Log In" (click)="login(user)">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+</div>
